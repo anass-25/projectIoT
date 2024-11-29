@@ -6,6 +6,10 @@ from rest_framework.response import Response
 from django.core.mail import send_mail
 from twilio.rest import Client
 import requests
+import os
+
+TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")
+TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
 
 # Keys and configuration
 TWILIO_ACCOUNT_SID = "AC931398dee75ca6dd52d7ca3687cbf3ca"
