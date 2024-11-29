@@ -1,2 +1,41 @@
+# Ignorer les fichiers et dossiers Python inutiles
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.env
+
+# Ignorer les fichiers liés à l'environnement virtuel
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignorer les fichiers de configuration des IDE
+.vscode/
+.idea/
+*.swp
+
+# Ignorer les fichiers de log et temporaires
+*.log
+*.tmp
+*.bak
+*.orig
+
+# Ignorer les fichiers de base de données locaux
+*.sqlite3
+
+# Ignorer les fichiers générés par les outils de build
+dist/
+build/
+*.egg-info/
+
+# Ignorer les fichiers secrets ou de configuration
+.env
+config.yaml
+credentials.json
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
